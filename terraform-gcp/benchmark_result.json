@@ -1,0 +1,17 @@
+{
+  "dataset": "sklearn_breast_cancer",
+  "source": "sklearn.datasets.load_breast_cancer",
+  "row_count": 569,
+  "feature_count": 30,
+  "load_time_seconds": 0.001629,
+  "training_time_seconds": 0.148596,
+  "best_iteration": 300,
+  "auc_roc": 0.989749,
+  "accuracy": 0.95614,
+  "f1_score": 0.965986,
+  "precision": 0.946667,
+  "recall": 0.986111,
+  "inference_latency_1_row_ms": 1.013772,
+  "inference_throughput_1000_rows_per_sec": 86507.684767,
+  "batch_predict_seconds": 0.002162
+}

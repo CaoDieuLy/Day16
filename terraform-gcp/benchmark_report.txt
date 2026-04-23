@@ -1,0 +1,9 @@
+CPU fallback was used because the GCP project could not obtain GPU quota.
+Dataset: sklearn_breast_cancer (569 rows, 30 features).
+Training time: 0.148596 seconds.
+AUC-ROC: 0.989749.
+Accuracy: 0.95614, F1-score: 0.965986.
+Precision: 0.946667, Recall: 0.986111.
+Single-row inference latency: 1.013772 ms.
+Throughput for up to 1000 rows: 86507.684767 rows/sec.
+This CPU path still demonstrates Terraform provisioning, ML training, inference, and billing validation.
